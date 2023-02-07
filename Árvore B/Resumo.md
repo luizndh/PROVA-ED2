@@ -28,3 +28,13 @@ Procura o lugar igual uma árvore binária de busca. Se há espaço na página, 
 5. Caso a página de cima esteja cheia, repita o processo todo
 
 ## Remoção
+
+A remoção na árvore B possui basicamente 4 casos:
+
+Caso 1 - Se o elemento estiver em uma folha e a folha mantiver 50% da ocupação após a remoção, basta remover e pronto.
+
+Caso 2 - Caso o elemento não esteja em uma folha, basta trocá-lo pelo seu antecessor. Ao remover o antecessor, se a página em que ele estava ainda tiver 50% de ocupação ou mais, basta remover e pronto. 
+
+Caso 3 - Caso em que a folha em que o elemento é removido, porém ela fica com menos do que 50% de ocupação. Nesse caso, veja a possibilidade de uma de suas irmãs cederem uma chave para ela, de forma que a chave cedida sobe para o seu pai, para ocupar o espaço da chave que será cedida para sua irmã.
+
+Caso 4 - Caso em que a folha em que o elemento é removido, porém ela fica com menos do que 50% de ocupação e suas irmãs não podem ceder nenhuma chave. Nesse caso, fazemos uma fusão de folhas, juntando a página cujo elemento deve ser removido com uma de suas duas irmãs, e descendo uma das chaves do seu pai para completar a página. Caso o pai dessas irmãs fique com menos de 50% de ocupação, repita o processo.
