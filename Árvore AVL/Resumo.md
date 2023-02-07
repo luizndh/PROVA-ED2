@@ -31,10 +31,10 @@ Essa rotação necessita de duas rotações simples, sendo a primeira à esquerd
 ## Como decidir as rotações?
 1. Calcular o fator de balanceamento = altura sub-árvore direita - altura sub-árvore esquerda
 2. Se o fator for maior que 1:
-  2.1 Se a sub-árvore da direita tem o fator menor que 0:
-    2.1.1 rotação dupla à esquerda
-  2.2 Se a sub-árvore da direita tem o fator maior que 0:
-    2.2.1 rotação simples à esquerda
+ 2.1 Se a sub-árvore da direita tem o fator menor que 0:
+   2.1.1 rotação dupla à esquerda
+ 2.2 Se a sub-árvore da direita tem o fator maior que 0:
+   2.2.1 rotação simples à esquerda
 
 3. Se o fator for menor que -1:  
 3.1 Se a sub-árvore da esquerda tem o fator maior que 0:    
