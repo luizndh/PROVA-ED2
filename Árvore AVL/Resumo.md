@@ -35,19 +35,17 @@ Se o fator for maior que 1:
   
   Se a sub-arvore da direita tem o fator menor que 0
 
-  
     rotação dupla a esquerda
-
     
   Se a sub-arvore da direita tem o fator maior que 0
 
-  
     rotação simples a esquerda
 
-    
 Se o fator for menor que -1:  
   
-  Se a sub-arvore da esquerda tem o fator maior que 0:    
+  Se a sub-arvore da esquerda tem o fator maior que 0:   
+  
     rotação dupla a direita  
-  Se a sub-arvore da esquerda tem o fator menor que 0:    
+  Se a sub-arvore da esquerda tem o fator menor que 0:   
+  
     rotação simples a direita
