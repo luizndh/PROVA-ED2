@@ -33,10 +33,17 @@ Essa rotação necessita de duas rotações simples, sendo a primeira à esquerd
 
 Se o fator for maior que 1:
   
-  Se a sub-arvore da direita tem o fator menor que 0:
+  Se a sub-arvore da direita tem o fator menor que 0
+
+  
     rotação dupla a esquerda
-  Se a sub-arvore da direita tem o fator maior que 0:
+
+    
+  Se a sub-arvore da direita tem o fator maior que 0
+
+  
     rotação simples a esquerda
+
     
 Se o fator for menor que -1:  
   
