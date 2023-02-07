@@ -20,5 +20,5 @@ Procura o lugar igual uma árvore binária de busca. Se há espaço na página, 
 1. Divide a página em dois
 2. Deixe a primeira metade das chaves na página inicial, e coloque a outra metade na nova página criada
 3. Insira o novo número na página ideal
-4. O maior elemento da página inicial sobe para a página de cima
+4. Caso o elemento tenha sido inserido na página inicial, o último elemento dessa página deve ser promovido. Caso tenha sido inserido na nova página criada, o primeiro dela sobe.
 5. Caso a página de cima esteja cheia, repita o processo todo
