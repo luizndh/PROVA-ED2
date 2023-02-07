@@ -1,11 +1,11 @@
 # Introdução
 
--Foi criada para resolver o problema de quando nossa estrutura de dados não cabe inteiramente na memória principal.
--Ela não é uma árvore binária, ou seja, cada nó pode ter mais do que 2 filhos.
--Cada nó também recebe o nome de página, e cada página pode ter várias chaves e ponteiros. 
--Cada página da árvore tem que estar pelo menos 50% ocupada, tirando a raíz, para que a estrutura seja eficiente.
--Não pode haver uma chave sem filho em uma página.
--Todas as folhas da árvore estão sempre no mesmo nível, pois a árvore cresce para cima e não para baixo.
+1. Foi criada para resolver o problema de quando nossa estrutura de dados não cabe inteiramente na memória principal.
+2. Ela não é uma árvore binária, ou seja, cada nó pode ter mais do que 2 filhos.
+3. Cada nó também recebe o nome de página, e cada página pode ter várias chaves e ponteiros. 
+4. Cada página da árvore tem que estar pelo menos 50% ocupada, tirando a raíz, para que a estrutura seja eficiente.
+5. Não pode haver uma chave sem filho em uma página.
+6. Todas as folhas da árvore estão sempre no mesmo nível, pois a árvore cresce para cima e não para baixo.
 
 ## Ordem da árvore
 
