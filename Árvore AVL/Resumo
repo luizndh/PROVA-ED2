@@ -1,3 +1,4 @@
+## Introdução e complexidade
 A árvore AVL é uma árvore binária auto-balanceável, ou seja, conforme você insere e remove elementos nela, ela se auto-balanceia através de rotações. Isso faz 
 com que a busca, inserção e remoção sempre tenham complexidade O(log n), pois o pior caso seria ter que percorrer a altura da árvore inteira.
 
