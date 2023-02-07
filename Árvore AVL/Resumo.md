@@ -19,3 +19,26 @@ Direita:
 ![image](https://user-images.githubusercontent.com/79621478/217350630-ff9b667c-bb0b-43d7-8769-d7541249a55a.png)
 
 # Dupla à esquerda
+Essa rotação necessita de duas rotações simples, sendo a primeira à direita e a segunda à esquerda.
+
+![image](https://user-images.githubusercontent.com/79621478/217351638-e29b8f7d-5879-451a-973f-ed3133740685.png)
+
+# Dupla à direita
+Essa rotação necessita de duas rotações simples, sendo a primeira à eqsuerda e a segunda à direita.
+
+![image](https://user-images.githubusercontent.com/79621478/217352756-d250ce19-aed3-42f0-8277-bfe2263e2231.png)
+
+## Como decidir as rotações?
+1. Calcular o fator de balanceamento = altura sub-árvore direita - altura sub-árvore esquerda
+
+2. Se o fator for maior que 1:
+  2.1 Se a sub-árvore da direita tem o fator menor que 0:
+    2.1.1 rotação dupla à esquerda
+  2.2 Se a sub-árvore da direita tem o fator maior que 0:
+    2.2.1 rotação simples à esquerda
+
+3. Se o fator for menor que -1:
+  3.1 Se a sub-árvore da esquerda tem o fator maior que 0:
+    3.1.1 rotação dupla à direita
+  3.2 Se a sub-árbore da esquerda tem o fator menor que 0:
+    3.2.1 rotação simples à direita
