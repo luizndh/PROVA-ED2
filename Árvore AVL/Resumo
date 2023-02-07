@@ -1,1 +1,6 @@
+A árvore AVL é uma árvore binária auto-balanceável, ou seja, conforme você insere e remove elementos nela, ela se auto-balanceia através de rotações. Isso faz 
+com que a busca, inserção e remoção sempre tenham complexidade O(log n), pois o pior caso seria ter que percorrer a altura da árvore inteira.
 
+O balanceamento acontece de acordo com o equilíbrio da árvore, que é medido subtraindo a altura da subárvore esquerda da subárvore direita de um nó. Todos 
+os nós possuem um nível de balanceamento, e quando esse nível é diferente de -1, 0 ou 1, quer dizer que a árvore está desbalanceada, e será necessário fazer
+uma rotação para balanceá-la.
