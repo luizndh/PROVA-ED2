@@ -22,3 +22,5 @@ Procura o lugar igual uma árvore binária de busca. Se há espaço na página, 
 3. Insira o novo número na página ideal
 4. Caso o elemento tenha sido inserido na página inicial, o último elemento dessa página deve ser promovido. Caso tenha sido inserido na nova página criada, o primeiro dela sobe.
 5. Caso a página de cima esteja cheia, repita o processo todo
+
+## Remoção
