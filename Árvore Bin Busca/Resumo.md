@@ -14,4 +14,3 @@ Começando pela raiz, comparamos o valor do elemento a ser buscado com o valor d
 
 ### Exclusão
 Caso o nó a ser excluído seja folha, ele é deletado. Caso o nó tenha apenas 1 filho, o nó é deletado e o filho vira filho do pai do nó a ser deletado. Caso o nó tenha 2 filhos, o nó é excluído e substituido pelo seu sucessor. Isso é feito olhando na subárvore direita, e escolhendo o menor valor, que vai substituir o nó. Também podemos escolher o valor máximo na subárvore esquerda.
-
