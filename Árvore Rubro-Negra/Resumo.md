@@ -18,7 +18,7 @@ Ou seja:
 2- O filho à esquerda do filho à direita do nó rotacionado vira o filho à direita do nó rotacionado.
 
 Exemplo:
-![esquerda](https://user-images.githubusercontent.com/62142509/218327671-7c296fc9-977f-4c75-8bcc-d4b1ecabdc9d.png)
+![esquerda](https://user-images.githubusercontent.com/62142509/218327719-76102692-83b9-491e-9434-112ff5d0547f.png)
 
 ### Direita:
 O filho esquerdo do nó rotacionado o substitui, e o nó rotacionado vira o filho direito do filho esquerdo. A sub árvore direita do filho esquerdo do nó rotacionado vira a sub árvore esquerda do nó rotacionado.
@@ -30,6 +30,14 @@ Ou seja:
 ## Operações
 
 ### Inserção
+1- O nó inserido será colorido vermelho.
+2- Inserimos na árvore. Caso haja uma violação de propriedades, temos então 4 casos:
+  1- Se o nó é raiz, será recolorido para preto.
+  2- Se o tio do nó é vermelho, recolorimos o pai, avô e tio.
+  3- Se o tio do nó é preto, e está em uma relação triângulo, rotacionamos o pai do nó, na direção contrária do nó.
+  ![triangulo](https://user-images.githubusercontent.com/62142509/218329048-974b7bbb-4afd-424c-99f0-c46aad071421.png)
+  4- Se o tio do nó é preto, e está em uma relação de linha, rotacionamos o avô do nó, na direção contraria do nó. Depois disso, recolorimos os nós que eram o pai e o avô antes da rotação.
+  ![linha](https://user-images.githubusercontent.com/62142509/218329197-386e423c-ec2d-42d5-87fd-79cc2edf884a.png)
 
 ### Exclusão
 
