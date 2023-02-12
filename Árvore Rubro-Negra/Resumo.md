@@ -39,9 +39,11 @@ Ou seja:
 
 Relação triângulo:
 ![triangulo](https://user-images.githubusercontent.com/62142509/218329048-974b7bbb-4afd-424c-99f0-c46aad071421.png)
+
 Relação linha:
 ![linha](https://user-images.githubusercontent.com/62142509/218329197-386e423c-ec2d-42d5-87fd-79cc2edf884a.png)
 
 ### Exclusão
+
 
 ### Busca
