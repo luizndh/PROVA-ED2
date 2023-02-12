@@ -44,6 +44,7 @@ Relação linha:
 ![linha](https://user-images.githubusercontent.com/62142509/218329197-386e423c-ec2d-42d5-87fd-79cc2edf884a.png)
 
 ### Exclusão
-
+![remocao](https://user-images.githubusercontent.com/62142509/218329759-058721c1-6345-4e31-a247-42f307b3bffd.png)
 
 ### Busca
+Fazemos a busca como na árvore binária de busca.
