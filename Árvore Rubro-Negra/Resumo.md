@@ -36,10 +36,10 @@ Ou seja:
   2. Se o tio do nó é vermelho, recolorimos o pai, avô e tio.
   3. Se o tio do nó é preto, e está em uma relação triângulo, rotacionamos o pai do nó, na direção contrária do nó.
   4. Se o tio do nó é preto, e está em uma relação de linha, rotacionamos o avô do nó, na direção contraria do nó. Depois disso, recolorimos os nós que eram o pai e o avô antes da rotação.
-  Relação triângulo:
-  ![triangulo](https://user-images.githubusercontent.com/62142509/218329048-974b7bbb-4afd-424c-99f0-c46aad071421.png)
-  Relação linha:
-  ![linha](https://user-images.githubusercontent.com/62142509/218329197-386e423c-ec2d-42d5-87fd-79cc2edf884a.png)
+Relação triângulo:
+![triangulo](https://user-images.githubusercontent.com/62142509/218329048-974b7bbb-4afd-424c-99f0-c46aad071421.png)
+Relação linha:
+![linha](https://user-images.githubusercontent.com/62142509/218329197-386e423c-ec2d-42d5-87fd-79cc2edf884a.png)
 
 ### Exclusão
 
