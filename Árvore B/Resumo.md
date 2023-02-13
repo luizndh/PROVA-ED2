@@ -42,4 +42,9 @@ Caso 2 - Caso o elemento não esteja em uma folha, basta trocá-lo pelo seu ante
 
 Caso 3 - Caso em que a folha em que o elemento é removido, porém ela fica com menos do que 50% de ocupação. Nesse caso, veja a possibilidade de uma de suas irmãs cederem uma chave para ela, de forma que a chave cedida sobe para o seu pai, para ocupar o espaço da chave que será cedida para sua irmã.
 
+Exemplo: 
+
+![image](https://user-images.githubusercontent.com/79621478/218586308-5c84af0d-7f42-4c59-8615-28371a046d91.png)
+
+
 Caso 4 - Caso em que a folha em que o elemento é removido, porém ela fica com menos do que 50% de ocupação e suas irmãs não podem ceder nenhuma chave. Nesse caso, fazemos uma fusão de folhas, juntando a página cujo elemento deve ser removido com uma de suas duas irmãs, e descendo uma das chaves do seu pai para completar a página. Caso o pai dessas irmãs fique com menos de 50% de ocupação, repita o processo.
