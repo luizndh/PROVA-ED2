@@ -27,6 +27,11 @@ Procura o lugar igual uma árvore binária de busca. Se há espaço na página, 
 4. Caso o elemento tenha sido inserido na página inicial, o último elemento dessa página deve ser promovido. Caso tenha sido inserido na nova página criada, o primeiro dela sobe.
 5. Caso a página de cima esteja cheia, repita o processo todo
 
+Exemplo:
+
+![image](https://user-images.githubusercontent.com/79621478/218585439-66cb3c67-1906-4ee2-ab73-5defb5b4b8bf.png)
+
+
 ## Remoção
 
 A remoção na árvore B possui basicamente 4 casos:
