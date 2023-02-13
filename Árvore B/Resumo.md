@@ -48,3 +48,6 @@ Exemplo:
 
 
 Caso 4 - Caso em que a folha em que o elemento é removido, porém ela fica com menos do que 50% de ocupação e suas irmãs não podem ceder nenhuma chave. Nesse caso, fazemos uma fusão de folhas, juntando a página cujo elemento deve ser removido com uma de suas duas irmãs, e descendo uma das chaves do seu pai para completar a página. Caso o pai dessas irmãs fique com menos de 50% de ocupação, repita o processo.
+
+![image](https://user-images.githubusercontent.com/79621478/218586990-92cc5c3c-ba0e-4110-978e-8dcc05704645.png)
+
